@@ -1,0 +1,99 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0%;
+}
+section {
+  margin-bottom: 100px;
+}
+
+.top-image {
+  background-image: url("images/donation15.jpeg");
+  width: 100%;
+  height: 669px;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.top-image-text {
+  color: white;
+  height: 320px;
+  width: 826px;
+  padding-left: 307px;
+  padding-top: 174x;
+}
+.top-image-text h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+.top-image-text p {
+  margin-bottom: 50px;
+}
+.black-gradient {
+  width: 1440px;
+  height: 669px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  padding-top: 100px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  background-color: #ff5959;
+  border-radius: 5px;
+  padding: 15px 12px 15px 12px;
+}
+
+#Donate {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+
+    
+}
+.amount{
+    padding-left: 530px;
+    margin-bottom: 50px;
+    
+}
+.donate-amount{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #707070;
+    background-color: #FAFAFA ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.selected{
+    color: #FF5959;
+    border: 1px solid #FF5959;
+    background-color: #FFEEEE ;
+   
+}
+.other-amount{
+    width: 500px;
+    height: 20px;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    border-right:  #FAFAFA;
+    margin-left: 480px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    
+}
+#center{
+    margin-left: 675px;;
+}
+
+
+ 
