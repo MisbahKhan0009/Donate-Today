@@ -84,14 +84,19 @@ section {
 }
 .other-amount {
   width: 500px;
-  height: 20px;
+  height: 30px;
   border-top: solid 1px white;
   border-left: solid 1px white;
   border-right: solid 1px white;
-  border-bottom: solid 2px grey;
+  border-bottom: solid 2px #b3b3b3;
   margin-left: 480px;
   text-align: center;
   margin-bottom: 30px;
+}
+
+::placeholder {
+  color: #b3b3b3;
+  font-size: medium;
 }
 #center {
   margin-left: 675px;
@@ -181,6 +186,7 @@ section {
   width: 809px;
   border-radius: 8px;
 }
+
 #email {
   border: #fff4d6;
   background-color: #d9d9d9;
@@ -197,7 +203,6 @@ section {
 #newsletter {
   display: flex;
   margin-left: 350px;
-  
 }
 .button-subs {
   text-decoration: none;
