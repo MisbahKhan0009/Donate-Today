@@ -63,12 +63,13 @@ section {
   margin-bottom: 80px;
 }
 .amount {
-  padding-left: 530px;
+  padding-left: 520px;
   margin-bottom: 50px;
 }
 .donate-amount {
   margin-left: 10px;
   text-decoration: none;
+  font-weight: bold;
   color: #707070;
   background-color: #fafafa;
   padding-top: 20px;
