@@ -22,8 +22,8 @@ section {
   color: white;
   height: 320px;
   width: 826px;
-  padding-left: 307px;
-  padding-top: 174x;
+  padding-left: 350px;
+  padding-top: 100px;
 }
 .top-image-text h1 {
   font-size: 65px;
@@ -33,7 +33,7 @@ section {
   margin-bottom: 50px;
 }
 .black-gradient {
-  width: 1440px;
+  width: 100%;
   height: 669px;
   background: rgb(0, 0, 0);
   background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
@@ -53,6 +53,11 @@ section {
   font-size: 45px;
   font-weight: 700;
   text-align: center;
+}
+.Donate {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: left;
 }
 .bot-pad {
   margin-bottom: 80px;
@@ -80,10 +85,10 @@ section {
 .other-amount {
   width: 500px;
   height: 20px;
-  border-top: white;
-  border-left: white;
-  border-right: white;
-  border-right: #fafafa;
+  border-top: solid 1px white;
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+  border-bottom: solid 2px grey;
   margin-left: 480px;
   text-align: center;
   margin-bottom: 30px;
@@ -93,6 +98,7 @@ section {
 }
 .text-box {
   text-align: center;
+
   width: 691px;
   padding-left: 400px;
 }
@@ -128,6 +134,42 @@ section {
   border-radius: 10px;
 }
 
+.donate-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section-1 {
+  padding-right: 50px;
+  width: 50%;
+}
+.section-2 {
+  width: 50%;
+
+  padding-left: 50px;
+}
+
+.section-3 {
+  padding-right: 50px;
+  width: 50%;
+}
+.section-4 {
+  width: 50%;
+
+  padding-left: 50px;
+}
+
+.extra-section {
+  display: flex;
+
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.extra-section p {
+  margin-bottom: 50px;
+}
+
 #plan-divider {
   border: 10px solid white;
 }
@@ -138,7 +180,6 @@ section {
   justify-content: center;
   width: 809px;
   border-radius: 8px;
-  
 }
 #email {
   border: #fff4d6;
@@ -151,12 +192,12 @@ section {
   border-bottom-left-radius: 5px;
   padding-left: 10px;
   font-size: medium;
-
 }
 
-#newsletter{
+#newsletter {
   display: flex;
-  justify-content: center;
+  margin-left: 350px;
+  
 }
 .button-subs {
   text-decoration: none;
@@ -170,7 +211,7 @@ section {
 }
 
 footer {
-  background-color: black;
+  background-color: #28282b;
   text-align: center;
 }
 
