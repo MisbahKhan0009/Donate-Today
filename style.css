@@ -99,7 +99,7 @@ section {
 
 .plans {
   display: flex;
-  
+
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -128,8 +128,45 @@ section {
   border-radius: 10px;
 }
 
-#plan-divider{
+#plan-divider {
   border: 10px solid white;
+}
+.newsletter {
+  background-color: #fff4d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 809px;
+  border-radius: 8px;
+  
+}
+#email {
+  border: #fff4d6;
+  background-color: #d9d9d9;
+  width: 275px;
+  height: 48px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+  font-size: medium;
+
+}
+
+#newsletter{
+  display: flex;
+  justify-content: center;
+}
+.button-subs {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5959;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 0;
+  padding: 15px 12px 15px 12px;
+  margin-left: 0;
 }
 
 footer {
