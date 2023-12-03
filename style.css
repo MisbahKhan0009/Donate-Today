@@ -1,11 +1,7 @@
 body {
   font-family: "Inter", sans-serif;
   margin: 0%;
-  
-  
 }
- 
-
 
 section {
   margin-bottom: 100px;
@@ -101,10 +97,44 @@ section {
   padding-left: 400px;
 }
 
+.plans {
+  display: flex;
+  
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.plan1 {
+  background-color: #edf5f6;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.plan2 {
+  background-color: #ffeeee;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.plan3 {
+  background-color: #fff4d6;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+#plan-divider{
+  border: 10px solid white;
+}
+
 footer {
   background-color: black;
   text-align: center;
-  
 }
 
 footer h1 {
@@ -112,7 +142,7 @@ footer h1 {
   padding-top: 30px;
   padding-bottom: 10px;
   font-weight: 800;
-  font-family: 'Lobster', sans-serif;
+  font-family: "Lobster", sans-serif;
 }
 
 footer p {
